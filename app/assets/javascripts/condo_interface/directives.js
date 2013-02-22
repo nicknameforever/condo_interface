@@ -349,7 +349,7 @@
 				//
 				scope.$watch('upload_count', function(newValue, oldValue) {
 					processPending();
-					scope.$digest();
+					updateUploaderView();
 				});
 				
 				
