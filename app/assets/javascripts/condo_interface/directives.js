@@ -425,7 +425,6 @@
 						break;
 						
 					case COMPLETED:
-						updateUploaderView();
 						scope.upload.message = 'complete';
 						element.find('td.controls').replaceWith( '<td class="blank" />' );
 						element.find('div.bar').removeClass('animate');
