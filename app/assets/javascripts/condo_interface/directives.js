@@ -412,6 +412,7 @@
 			scope.paused = true;
 			
 			scope.$watch('upload.state', function(newValue, oldValue) {
+				console.log(newValue);
 				switch(newValue) {
 					case STARTED:
 						scope.paused = false;
